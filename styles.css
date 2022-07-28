@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+/* 
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+
+### Neutral
+
+- Very dark blue (main BG): 
+- Very dark blue (card BG): 
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%) */
+
+:root{
+    --soft-blue:hsl(215, 52%, 30%);
+    --cyan:hsl(178, 100%, 50%);
+    
+    --main-bg:hsl(217, 54%, 11%);
+    --card-bg:hsl(216, 50%, 16%)
+    --line: hsl(215, 32%, 27%);
+    --white:hsl(0, 0%, 100%);
+}
+
+body{
+   font-family: "Outfit", sans-serif;
+   font-size: 18px;
+   background-color:hsl(217, 97%, 13%) ;
+   color: hsl(0, 0%, 100%);
+   text-align: center;
+}
+hr{
+    color: hsl(215, 32%, 27%);
+}
+
+h2{
+    float: left;
+    font-weight: 600;
+    color:var(--cyan);
+    
+}
+p{
+    font-weight: 400;
+    clear: left;
+    width: 90%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul li{
+    display: flex;
+    align-items: center;
+    
+}
+ul li img{
+    margin-right: 0.2rem;
+}
+li:first-child{
+    font-weight: 300;
+    color: var(--cyan);
+    
+}
+li:last-child{
+    color: hsl(216, 84%, 88%);
+}
+.card{
+    width: 30%;
+    margin: 100px auto 100px;
+    background: var(--soft-blue);
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 20px ;
+  
+}
+.equilibrium img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.text p{
+    color:  hsl(216, 84%, 88%);
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+.creator{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.creator img{
+    float: left;
+    
+    width: 10%;
+    margin-bottom: 0.5rem;
+    
+}
+.creator p{
+    display: inline;
+    
+    
+}
